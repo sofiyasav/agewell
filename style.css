@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+
+
+
+body {
+    background-color: #FFFFFF;
+    font-family: "Merriweather", serif;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    color: #2B4A52;
+    text-decoration: none;
+}
+
+
+
+.header {
+    background-image: url(/images/banner.webp);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0 40px;
+}
+
+.container {
+    max-width: 1195px 0;
+    padding: 261px 200px;
+}
+
+.container text {
+    background-color: #FFFFFF;
+}
+
+.header__top {
+    min-height: 70px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+.menu {
+    display: flex;
+    align-items: center;
+    
+}
+.menu__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    padding-right: 57px;
+}
+.menu__item {
+    font-weight: 700;
+}
+
+
+
+
+
+.header__title {
+    font-size: 111px;
+    color: #336772;
+    margin: 0px;
+}
+.header__text {
+    font-size: 20px;
+    max-width: 618px;
+    color: #336772;
+    padding: 25px 0;
+}
+.header__btn {
+    display: inline-block;
+    font-size: 20px;
+    color: #2D384D;
+    background-color: #99E1F2;
+    padding: 20px 37px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+.main {
+}
+.people-cards {
+}
+.people-cards_text {
+}
+.people-card {
+}
+.people-cards_task-wrapper {
+}
+.people-cards_task-tittle {
+}
+.people-cards_task-title {
+}
+.people-cards_task-text {
+}
+.people-cards_task-button {
+}
+
+
+
+
+
+.feedback {
+}
+.feedback-title {
+}
+.feedback-description {
+}
+.feedback-button {
+}
+
+
+
+
+
+.support-us {
+}
+.support-us_container {
+}
+.support-us_title {
+}
+.support-us_choices {
+}
+.support-us_descriptions {
+}
+.support-us_child-title {
+}
+.support-us_text-container {
+}
+.support-us_definition {
+}
+.support-us_more-button {
+}
+
+
+
+
+
+
+.gallery {
+}
+
+
+
+.footer {
+}
+.footer-inner {
+}
+.footer__logo {
+}
+.footer__nav {
+}
+.footer__nav-item {
+}
+.footer__nav-link {
+}
