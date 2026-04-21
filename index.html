@@ -1,11 +1,251 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AGEWELL</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AGEWELL</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
+  <header class="header">
+    <div class="container">
+      <div class="header__top">
+        <nav class="menu">
+          <img src="images/logo.svg" alt="логотип agewell">
+          <span></span>
+          </button>
+          <ul class="menu__list">
+            <li class="menu__item">
+              <!--menu_link - это кнопочки как у нас наверху сайта -->
+              <a href="#" class="menu__link">Главная</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">О нас</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Новости</a>
+            </li> 
+          </ul> 
+        </nav>
+      </div>
+      <!-- тут пишется наше название -->
+      <h1 class="header__title">
+        AGEWELL
+      </h1>
+      <!-- и то, кто мы -->
+      <p class="header__text">
+        Agewell  это сайт, созданный для того, чтобы облегчить жизнь пожилым людям. Мы хотим, чтобыони чувствовали заботу и любовь, а также мы хотим сделать этот мир чуточку лучше
+      </p>
+      <!--кнопочка для ссылки на почту тип-->>
+      <a href="#" class="header__btn">
+        Оставить заявку на просьбу
+      </a>
+    </div>
+  </header>
+  <main class="main">
+    <section class="people-cards">
+      <h3 class="people-cards_text">
+        Указанный вами город: Нальчик
+      </h3>
+      <h3 class="people-cards_text">
+        Кол-во найденных просьб: 5
+      </h3>
+
+      <div class="people-card">
+        <img src="images/task1.jpg" alt="просьба-1">
+        <div class="people-cards_task-wrapper">
+        <h3 class="people-cards_task-tittle">
+          Анастасия Метровская
+        </h3>
+        <h3 class="people-cards_task-title">
+          Тип просьбы: Ремонт на кухне
+        </h3>
+        <p class="people-cards_task-text">
+          Меня зовут Анастасия и мне 80 лет, нужен ремонт на кухне но из-за боли в спине не могу сама сделать его себе
+        </p>
+        </div>
+        <button class="people-cards_task-button">
+          ПОДРОБНЕЕ
+        </button>
+      </div>
+      <div class="people-card">
+        <img src="images/task2.jpg" alt="просьба-1">
+        <div class="people-cards_task-wrapper">
+        <h3 class="people-cards_task-tittle">
+          Виталий Анатольевич
+        </h3>
+        <h3 class="people-cards_task-title">
+          Тип просьбы: Починка забора и стен
+        </h3>
+        <p class="people-cards_task-text">
+          Я бывший  военачальник, нужна помочь с починкой забора, и внутренних стен. Из-за сломанной ноги трудно двигаться
+        </p>
+        </div>
+        <button class="people-cards_task-button">
+          ПОДРОБНЕЕ
+        </button>
+      </div>
+      <div class="people-card">
+        <img src="images/task3.jpg" alt="просьба-1">
+        <div class="people-cards_task-wrapper">
+        <h3 class="people-cards_task-tittle">
+          Игорь Левченко
+        </h3>
+        <h3 class="people-cards_task-title">
+          Тип просьбы: Покупка лекарств
+        </h3>
+        <p class="people-cards_task-text">
+          Приветствую! Меня зовут Игорь, мне 91 год и у меня болезнь сердца, необходимо помощь с покупкой лекарств
+        </p>
+        </div>
+        <button class="people-cards_task-button">
+          ПОДРОБНЕЕ
+        </button>
+      </div>
+      <div class="people-card">
+        <img src="images/task4.jpg" alt="просьба-1">
+        <div class="people-cards_task-wrapper">
+        <h3 class="people-cards_task-tittle">
+          Наталья Гукова
+        </h3>
+        <h3 class="people-cards_task-title">
+          Тип просьбы:  Помощь в выгуле собак
+        </h3>
+        <p class="people-cards_task-text">
+          Меня зовут Наталья, мне 70 лет. Из-за болезни с суставами не выходит выгуливать Лорда,  это имя моей собаки, требуется помощь! 
+        </p>
+        </div>
+        <button class="people-cards_task-button">
+          ПОДРОБНЕЕ
+        </button>
+      </div>
+      <div class="people-card">
+        <img src="images/task5.jpg" alt="просьба-1">
+        <div class="people-cards_task-wrapper">
+        <h3 class="people-cards_task-tittle">
+          Галина Стребнянская
+        </h3>
+        <h3 class="people-cards_task-title">
+          Тип просьбы: Помощь с покупкой продуктов
+        </h3>
+        <p class="people-cards_task-text">
+          Меня зовут Анастасия и мне 80 лет, нужен ремонт на кухне но из-за боли в спине не могу сама сделать его себе
+        </p>
+      </div>
+      <button class="people-cards_task-button">
+        ПОДРОБНЕЕ
+      </button>
+    </div>
+    </section>
+  
+  <section class="feedback">
+    <h1 class="feedback-title">
+      Обратная связь
+    </h1>
+    <img src="images/feedback.jpg" alt="обрсвз">
+    <p class="feedback-description">
+      Если вам интересны какие-либо подробности о нашем проекте или у вас есть вопросы, вы можете обратиться на нашу почту и мы ответим вам в ближайшее время
+    </p>
+    <button class="feedback-button">
+      перейти
+    </button>
+  </section>
+  
+  <section class="support-us">
+    <div class="support-us_container">
+      <h1 class="support-us_title">
+          Как вы можете поддержать нас?
+      </h1>
+      <div class="support-us_choices">
+        <!-- Тут выбор и их описание в разделе как вы можете поддержать нас  -->
+        <div class="support-us_descriptions">
+          <h3 class="support-us_child-title">
+           Партнёрство   
+          </h3>
+          <div class="support-us_text-container">
+            <p class="support-us_definition">
+              финансировать проект или предоставлять услуги
+            </p>
+          </div>
+        </div>
+        <div class="support-us_descriptions">
+          <h3 class="support-us_child-title">
+            Волонтёрство
+          </h3>
+          <div class="support-us_text-container">
+            <p class="support-us_definition">
+              обучиться и помогать в исполнении задач
+            </p>
+          </div>
+        </div>
+        <div class="support-us_descriptions">
+          <h3 class="support-us_child-title">
+            Материальное
+          </h3>
+          <div class="support-us_text-container">
+            <p class="support-us_definition">
+              жертвовать средства или нужные товары
+            </p>
+          </div>
+        </div>
+      </div>
+      <button class="support-us_more-button">
+        Подробнее
+      </button>
+    </div>
     
+  </section>
+
+    <section class="gallery">
+      <img src="images/gallery1.webp" alt="">
+      <img src="images/gallery2.webp" alt="">
+      <img src="images/gallery3.webp" alt="">
+    </section>
+
+  </main>
+  <footer class="footer">
+    <img src="images/logo.svg" alt="">
+    <div class="container">
+      <div class="footer-inner">
+          <a href="#" class="footer__logo">
+            <img src="images/footer-logo.svg" alt="">
+          </a>
+          <ul class="footer__nav">
+            <li class="footer__nav-item">
+              <a class="footer__nav-link" href="#">Обратная связь</a>
+            </li>
+            <li class="footer__nav-item">
+              <a class="footer__nav-link" href="#">Задать вопрос</a>
+            </li>
+            <li class="footer__nav-item">
+              <a class="footer__nav-link" href="#">Оставить отзыв</a>
+            </li>
+          </ul>
+          <ul class="footer__nav">
+            <li class="footer__nav-item">
+              <a class="footer__nav-link" href="#">Поддержать проект</a>
+            </li>
+            <li class="footer__nav-item">
+              <a class="footer__nav-link" href="#">Поддержать команду</a>
+            </li>
+            <li class="footer__nav-item">
+              <a class="footer__nav-link" href="#">Стать спонсором</a>
+            </li>
+          </ul>
+          <ul class="footer__nav">
+            <li class="footer__nav-item">
+              <a class="footer__nav-link" href="#">Адрес и телефоны</a>
+            </li>
+            <li class="footer__nav-item">
+              <a class="footer__nav-link" href="#">Электронная почта</a>
+            </li>
+            <li class="footer__nav-item">
+              <a class="footer__nav-link" href="#">Социальные сети</a>
+            </li>
+          </ul>
+  </footer>
 </body>
+
 </html>
