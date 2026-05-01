@@ -4,106 +4,112 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>О нас</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style2.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+    </style>
 </head>
 <body> 
   <header class="header">
-    <div class="container header">
-      <div class="header__top">
+    <div class="header__top">
+      <img src="images/logo.svg" alt="логотип agewell">
         <nav class="menu">
-          <img class="logo" src="images/logo.svg" alt="логотип agewell">
-          <span></span>
-          </button>
           <ul class="menu__list">
             <li class="menu__item">
-              <a href="#" class="menu__link">Главная</a>
+              <a href="./index.html" class="menu__link">Главная</a>
             </li>
             <li class="menu__item">
-              <a href="#" class="menu__link">О нас</a>
+              <a href="./about_us.html" class="menu__link">О нас</a>
             </li>
             <li class="menu__item">
               <a href="#" class="menu__link">Новости</a>
-            </li>
-          </ul>
+            </li> 
+          </ul> 
+          <img src="images/header-circle.webp" alt="аккаунт">
         </nav>
-      </div>
     </div>
   </header>
   <main class="main">
-    <section class="goal">
+    <section class="goal container">
         <img src="images/goal.webp" alt="цель фото">
-        <h1 class="goal_title">
+        <div class="goal_text-wrapper">
+          <h1 class="goal_title">
             Наша цель
-        </h1>
-        <p class="goal_text">
+          </h1>
+          <p class="goal_text">
             Цель нашего проекта заключается в создании комфортного и удобного в использовании приложения, в котором будут размещаться анкеты нуждающихся в помощи пожилых людей. Приложение создаётся с целью помочь нашим старшим, утешить их грусть, радуя простыми мелочами и связать наше молодое поколение со старшим,сохраняя человеческие ценности и качества.
+          </p>
+        </div>
     </section>
-    <section class="team">
-            <h1 class="team_title">
-                Команда
-            </h1>
-            <p class="team_text">
-                Наша команда состоит из 4 учениц колледжа IThub. Мы загорелись идеей данной платформы с первого месяца обучения и уверенно идём к ней. Разделившись на выбранные роли, мы создали прототип нашего итогового проекта и надеемся на общественную поддержку!
-            </p>
-            <img src="images/team.webp" alt="команда фото">
-    </section>
-    <section class="comments">
-        <h1 class="comments_title">
-          Наши отзывы
+    <section class="team container">
+      <div class="team_text-wrapper">
+        <h1 class="team_title">
+          Команда
         </h1>
+        <p class="team_text">
+          Наша команда состоит из 4 учениц колледжа IThub. Мы загорелись идеей данной платформы с первого месяца обучения и уверенно идём к ней. Разделившись на выбранные роли, мы создали прототип нашего итогового проекта и надеемся на общественную поддержку!
+        </p>
+      </div>
+      <img src="images/team.webp" alt="команда фото">
+    </section>
+    <section class="comments container">
+      <h1 class="comments_title">
+        Наши отзывы
+      </h1>
+      <div class="comments_all-wrapper">
         <div class="comments_wrapper">
-            <div class="comments-upper">
-                <img src="images/comment1.webp" alt="первый коммент фотка">
-                <h3 class="comments-names">
-                    Анастасия Метровская
-                </h3>
-            </div>
-            <p class="comments_text">
-                «AGEWELL» спасибо большое за помощь, сделали все в лучшем виде, кухня стала очень уютной! 
-            </p>
+          <div class="comments-upper">
+            <img src="images/comment1.webp" alt="первый коммент фотка">
+            <h3 class="comments-names">
+              Агата Петровская
+            </h3>
+          </div>
+          <p class="comments_text">
+            «AGEWELL» спасибо большое за помощь, сделали все в лучшем виде, кухня стала очень уютной! 
+          </p>
         </div>
         <div class="comments_wrapper">
-            <div class="comments-upper">
-                <img src="images/comment2.webp" alt="второй коммент фотка">
-                <h3 class="comments-names">
-                    Лев Светский
-                </h3>
-            </div>
-            <p class="comments_text">
-                Благодарю за помощь с газоном, теперь чистый и красивый
-            </p>
+          <div class="comments-upper">
+            <img src="images/comment2.webp" alt="второй коммент фотка">
+            <h3 class="comments-names">
+              Лев Светский
+            </h3>
+          </div>
+          <p class="comments_text">
+            Благодарю за помощь с газоном, теперь чистый и красивый
+          </p>
         </div>
         <div class="comments_wrapper">
-            <div class="comments-upper">
-                <img src="images/comment3.webp" alt="третий коммент фотка">
-                <h3 class="comments-names">
-                    Аркадий Парахозов
-                </h3>
-            </div>
-            <p class="comments_text">
-                Выражаю блаодарность вам за помощь с газоном, теперь чистый и красивый
-            </p>
+          <div class="comments-upper">
+            <img src="images/comment3.webp" alt="третий коммент фотка">
+            <h3 class="comments-names">
+              Аркадий Парахозов
+            </h3>
+          </div>
+          <p class="comments_text">
+            Выражаю блаодарность вам за помощь с газоном, теперь чистый и красивый
+          </p>
         </div>
         <div class="comments_wrapper">
-            <div class="comments-upper">
-                <img src="images/comment4.webp" alt="четвёртый коммент фотка">
-                <h3 class="comments-names">
-                    Мария Чаековская
-                </h3>
-            </div>
-            <p class="comments_text">
-                Спасибо большое вам за поддержку в покупке продуктов. Теперь не пропаду!
-            </p>
+          <div class="comments-upper">
+            <img src="images/comment4.webp" alt="четвёртый коммент фотка">
+            <h3 class="comments-names">
+              Мария Чаековская
+            </h3>
+          </div>
+          <p class="comments_text">
+            Спасибо большое вам за поддержку в покупке продуктов. Теперь не пропаду!
+          </p>
         </div>
+      </div>
     </section>
   </main>
-  <footer class="footer">
-    <img src="images/logo.svg" alt="">
+  <footer class="footer container">
+    <a href="./index.html" class="footer__logo">
+      <img src="images/logo.svg" alt="">
+    </a>
     <div class="container">
       <div class="footer-inner">
-          <a href="#" class="footer__logo">
-            <img src="images/footer-logo.svg" alt="">
-          </a>
           <ul class="footer__nav">
             <li class="footer__nav-item main-item">
               <a class="footer__nav-link" href="#">Обратная связь</a>
@@ -120,7 +126,7 @@
               <a class="footer__nav-link" href="#">Поддержать проект</a>
             </li>
             <li class="footer__nav-item">
-              <a class="footer__nav-main" href="#">Поддержать команду</a>
+              <a class="footer__nav-link" href="#">Поддержать команду</a>
             </li>
             <li class="footer__nav-item">
               <a class="footer__nav-link" href="#">Стать спонсором</a>
