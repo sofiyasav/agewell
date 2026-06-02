@@ -18,7 +18,10 @@ img {
 body {
     background-color: #FFFFFF;
     font-family: "Merriweather", serif;
+    max-width: 100%;
+    min-height: 100%;
 }
+html, body { width: 100%; max-width: 100%; overflow-x: hidden; } 
 
 ul, ol {
     list-style: none;
@@ -121,12 +124,14 @@ a {
     padding: 20px 37px;
     border-radius: 10px;
     box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.2);
-    max-width: 100%;
+    /* max-width: 100%; */
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     margin-bottom: 62px;
-    gap: 180px;
+    justify-content: space-around;
+    min-width: 100%;
+    flex-wrap: wrap;
 }
 .people-cards_task-wrapper {
     display: block;
@@ -164,12 +169,15 @@ a {
 .feedback-row{
     display: flex;
     align-items: center;
+    justify-content: space-around;
+    min-width: 100%;
 }
 .feedback-column{
     padding-left: 150px;
+    max-width: 787px;;
 }
 .feedback-description {
-    max-width: 524px;
+    max-width: 587px;
     font-size: 23px;
 }
 .feedback-button {
@@ -180,7 +188,7 @@ a {
     padding: 20px 241px;
     border-radius: 10px;
     box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.2);
-    min-width: 587px;
+    max-width: 587px;
     max-height: 76px;
 }
 
@@ -204,7 +212,7 @@ a {
     border-radius: 10px;
     box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.2);
     min-width: 100%;
-    max-height: 634px;
+    min-height: 634px;
     padding: 79px 45px;
 }
 .support-us_title {
@@ -212,8 +220,9 @@ a {
 }
 .support-us_choices {
     display: flex;
-    justify-content: space-between;
-    gap: 112px;
+    justify-content: space-around;
+    min-width: 100%;
+    flex-wrap: wrap;
     margin-bottom: 80px;
 }
 .support-us_descriptions {
@@ -246,7 +255,7 @@ a {
     font-size: 20px;
     color: #2D384D;
     background-color: #99E1F2;
-    padding: 20px 241px;
+    padding: 20px 0px;
     border-radius: 10px;
     box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.2);
     max-width: 100%;
@@ -261,9 +270,11 @@ a {
 
 .gallery {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding-bottom: 156px;
+    justify-content: space-around;
+    min-width: 100%;
+    flex-wrap: wrap;
 }
 
 
@@ -292,6 +303,24 @@ a {
     padding: 8px 0;
 }
 
-.footer__nav-item ul {
-    list-style: circle;
+
+
+
+/* @media (max-width: 1600px) {
+    #feedback-image {
+        display: none;
+    }
+    .feedback-column {
+        padding-top: 85px;
+        padding-left: 0px;
+    }
+    .feedback-row{
+        max-height: 300px;
+    }
 }
+
+@media (max-width: 900px) {
+    .header__title {
+        font-size: 90px;
+    }
+} */
